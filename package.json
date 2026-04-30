@@ -3,6 +3,7 @@
   "displayName": "SuperClone",
   "description": "Clone all branches of a git repository into individual folders and open them as a workspace.",
   "publisher": "boylett",
+  "icon": "icon.png",
   "version": "0.0.1",
   "repository": {
     "type": "git",
