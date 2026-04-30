@@ -32,6 +32,7 @@
     "pretest": "npm run compile",
     "lint": "eslint src",
     "package": "vsce package",
+    "build": "node scripts/build-vsix.js",
     "publish": "vsce publish",
     "release": "vsce publish --no-git-tag-version"
   },
