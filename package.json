@@ -2,7 +2,12 @@
   "name": "superclone",
   "displayName": "SuperClone",
   "description": "Clone all branches of a git repository into individual folders and open them as a workspace.",
+  "publisher": "boylett",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boylett/SuperClone"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
