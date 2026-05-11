@@ -9,3 +9,9 @@ That's it. That's the extension.
 ## Usage
 
 Run **Git: Super Clone** from the command palette.
+
+## Support
+
+If this is useful to you and you'd like to support its development, you can buy me a coffee on Ko-fi - always optional, always appreciated.
+
+<a href="https://ko-fi.com/boylett"><img src=".github/ko-fi.jpg" alt="Support me on Ko-fi" width="360" /></a>
