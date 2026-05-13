@@ -2,18 +2,39 @@
   "name": "superclone",
   "displayName": "SuperClone",
   "description": "Clone all branches of a git repository into individual folders and open them as a workspace.",
+  "version": "0.0.3",
   "publisher": "boylett",
+  "license": "MIT",
   "icon": "icon.png",
-  "version": "0.0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/boylett/SuperClone"
+    "url": "https://github.com/boylett/SuperClone.git"
   },
+  "bugs": {
+    "url": "https://github.com/boylett/SuperClone/issues"
+  },
+  "homepage": "https://github.com/boylett/SuperClone#readme",
   "engines": {
     "vscode": "^1.85.0"
   },
+  "capabilities": {
+    "virtualWorkspaces": {
+      "supported": false,
+      "description": "Spawns the local `git` binary to fetch branches into folders on disk."
+    },
+    "untrustedWorkspaces": {
+      "supported": true
+    }
+  },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "git",
+    "clone",
+    "branches",
+    "workspace",
+    "multi-root"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
@@ -26,15 +47,13 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npm run compile",
-    "compile": "tsc -p ./",
+    "vscode:prepublish": "npm run build",
+    "build": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "npm run compile",
+    "typecheck": "tsc --noEmit",
     "lint": "eslint src",
     "package": "vsce package",
-    "build": "node scripts/build-vsix.js",
-    "publish": "vsce publish",
-    "release": "vsce publish --no-git-tag-version"
+    "release": "npm run typecheck && vsce package"
   },
   "devDependencies": {
     "@types/node": "^20.x",
