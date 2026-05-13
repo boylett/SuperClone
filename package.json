@@ -52,8 +52,8 @@
     "watch": "tsc -watch -p ./",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src",
-    "package": "vsce package",
-    "release": "npm run typecheck && vsce package"
+    "package": "mkdir -p releases && vsce package --out releases",
+    "release": "npm run typecheck && mkdir -p releases && vsce package --out releases"
   },
   "devDependencies": {
     "@types/node": "^20.x",
