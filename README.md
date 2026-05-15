@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="icon.png" alt="SuperClone" width="120" />
+<img src="https://raw.githubusercontent.com/boylett/SuperClone/main/icon.png" alt="SuperClone" width="120" />
 
 # SuperClone
 
-[![Version](https://img.shields.io/badge/version-0.0.3-cb3837?style=flat-square&logo=npm&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=boylett.superclone)
+[![Version](https://img.shields.io/badge/version-0.0.4-cb3837?style=flat-square&logo=npm&logoColor=white)](https://marketplace.visualstudio.com/items?itemName=boylett.superclone)
 
 You have a repository. It has branches. You want all of them. Now you have all of them.
 
@@ -28,7 +28,7 @@ Run **Git: Super Clone** from the command palette. Pick a repository from your G
 
 If this is useful to you and you'd like to support its development, you can buy me a coffee on Ko-fi - always optional, always appreciated.
 
-<a href="https://ko-fi.com/boylett"><img src=".github/ko-fi.jpg" alt="Support me on Ko-fi" width="360" /></a>
+<a href="https://ko-fi.com/boylett"><img src="https://raw.githubusercontent.com/boylett/SuperClone/main/.github/ko-fi.jpg" alt="Support me on Ko-fi" width="360" /></a>
 
 ## License
 

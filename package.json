@@ -2,7 +2,7 @@
   "name": "superclone",
   "displayName": "SuperClone",
   "description": "Clone all branches of a git repository into individual folders and open them as a workspace.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "boylett",
   "license": "MIT",
   "icon": "icon.png",
